@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    int a[10],b;
+    printf("enter 10 numbers:\n");
+    for(b=0;b<10;b++)
+        scanf("%d",&a[b]);
+    for(b=0;b<10;b++)
+        printf("\n%d\t%d",a[b],&a[b]);
+    return 0;
+}
